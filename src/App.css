@@ -1,0 +1,13 @@
+.app {
+    display: flex;
+
+    .content {
+        /* Bằng với chiều rộng của side nav */
+        margin-left: 250px; 
+        padding: 20px;
+        /* Điều chỉnh trên thiết bị mobile */
+        @include respond-to(mobile) {
+            margin-left: 200px; 
+        }
+    }
+}

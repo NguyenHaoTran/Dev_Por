@@ -1,0 +1,74 @@
+@import '../../styles/base/variables';
+@import '../../styles/base/mixins';
+
+.side-nav {
+    position: fixed;
+    left: -250px;
+    top: 0;
+    height: 100%;
+    width: 250px;
+    background-color: $primary-color;
+    padding-top: 20px;
+    z-index: 1000;
+    transition: left 0.3s ease;
+    &.open {
+            left: 0; // Hiển thị side nav khi class 'open' được thêm vào
+        }
+    
+        @include respond-to(mobile) {
+            width: 200px;
+            left: -200px;
+        }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+
+        li {
+            margin: 20px 0;
+
+            a {
+                color: $text-color;
+                text-decoration: none;
+                font-size: $font-medium;
+                display: block;
+                padding: 10px;
+
+                &:hover {
+                    background-color: $secondary-color;
+                }
+            }
+        }
+    }
+
+    @include respond-to(mobile) {
+        width: 200px;
+
+        li {
+            margin: 15px 0;
+
+            a {
+                font-size: $font-small;
+            }
+        }
+    }
+}
+
+.toggle-btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 30px;
+    background-color: $secondary-color;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1001; // Hiển thị phía trên side nav
+}
+
+@media (min-width: $tablet) {
+    .toggle-btn {
+        display: none; // Ẩn nút toggle trên màn hình lớn
+    }
+}
