@@ -1,5 +1,5 @@
-import  { useState } from 'react';
-import './sideNav.scss';
+import { useState } from "react";
+import "./sideNav.scss";
 
 const SideNav = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,15 +11,25 @@ const SideNav = () => {
   return (
     <>
       <button className="toggle-btn" onClick={toggleSideNav}>
-        ☰
+        <span>☰</span>
       </button>
-      <nav className={`side-nav ${isOpen ? 'open' : ''}`}>
+      <nav className={`side-nav ${isOpen ? "open" : ""}`}>
         <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#skills">Skills</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
         </ul>
       </nav>
     </>
