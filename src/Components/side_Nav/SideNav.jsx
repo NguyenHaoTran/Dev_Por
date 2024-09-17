@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./sideNav.scss";
+import { Link } from "react-router-dom";
 
 const SideNav = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,27 +12,45 @@ const SideNav = () => {
   return (
     <>
       <button className="toggle-btn" onClick={toggleSideNav}>
-        <span>☰</span>
+        <span>Menu</span>
       </button>
       <nav className={`side-nav ${isOpen ? "open" : ""}`}>
+        <div className="name">
+          <div className="avt">
+            <img src="src\assets\AVT.jpg" alt="" />
+          </div>
+          <h1>ng.hao.t</h1>
+        </div>
+        <div className="line"></div>
         <ul>
           <li>
-            <a href="#home">Home</a>
+            <i class="ri-home-line"></i>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="#about">About</a>
+            <i class="ri-profile-line"></i>
+            <Link to="/about">About</Link>
           </li>
           <li>
-            <a href="#skills">Skills</a>
+            <i class="ri-stack-line"></i>
+            <Link to="/skills">Skills</Link>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <i class="ri-code-line"></i>
+            <Link to="/projects">Projects</Link>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <i class="ri-mail-line"></i>
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
-      </nav>
+        <div className="line"></div>
+        <div className="socials">
+          <a href="https://www.facebook.com/profile.php?id=100004978517081"><i class="ri-facebook-box-fill"></i></a>
+          <a href="https://www.instagram.com/ng.hao.t/?fbclid=IwY2xjawFWjpVleHRuA2FlbQIxMAABHTTWJkf5XziAIpi7WI_szWKaBTgqJPMZNCaRVW4TLBlPtbbydJke-DisYw_aem_ZNAD-vCGjGHxYT6F5XSoeg"><i class="ri-instagram-line"></i></a>
+          <a href="https://github.com/NguyenHaoTran"><i class="ri-github-fill"></i></a>
+        </div>
+      </nav> 
     </>
   );
 };

@@ -1,0 +1,25 @@
+@import "./../../styles/main.scss";
+
+.contact_container {
+    height: 100vh;
+    background-color: $background-color;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.171) 2px,
+            transparent 0);
+    background-size: 30px 30px;
+    background-position: -5px -5px;
+    animation: bg-move 35s linear infinite; // Animation cho background di chuyển
+
+    h1 {
+        color: $text-color;
+    }
+}
+
+@keyframes bg-move {
+    0% {
+        background-position: -5px -5px;
+    }
+
+    100% {
+        background-position: 100% 100%; // Di chuyển đến góc trên bên phải
+    }
+}

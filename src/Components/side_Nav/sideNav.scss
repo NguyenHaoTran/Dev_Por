@@ -4,17 +4,53 @@
 .side-nav {
   position: fixed;
   left: 0;
-  top: 0;
-  height: 100%;
+  top: 150px;
+  height: 70%;
   width: 250px;
-  background-color: $primary-color;
-  padding-top: 20px;
+  // background-color: rgba($color: #5f5f5f, $alpha: 0.2);
+  background: linear-gradient(
+    45deg,
+    rgba(95, 95, 95, 0.2) 25%,
+    rgba(255, 255, 255, 0.2) 50%,
+    rgba(95, 95, 95, 0.2) 75%
+  );
+  background-size: 300% 300%;
+  animation: bg-animation 15s infinite linear; // Điều chỉnh thời gian theo ý muốn
+  // glass
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   z-index: 1000;
   transition: left 0.3s ease;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border-radius: 0 15px 15px 0;
+  .name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .avt {
+      width: 40px;
+      height: 40px;
+      img {
+        width: 100%;
+        border-radius: 50%;
+      }
+    }
+    h1 {
+      font-size: 15px;
+      padding-left: 20px;
+      font-weight: 200;
+    }
+  }
+
+  .line {
+    padding-top: 30px;
+    width: 120px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
   &.open {
     left: 0; // Hiển thị side nav khi class 'open' được thêm vào
   }
@@ -26,21 +62,26 @@
 
   ul {
     list-style-type: none;
-    padding: 0;
+    padding-top: 20px;
+    width: 100%;
+    margin: 0;
 
     li {
-      margin: 20px 0;
+      display: flex;
+      align-items: center;
+      width: 100%;
+      padding: 0 0 0 45px;
+      transition: 0.7s;
+      &:hover {
+        background-color: $secondary-color;
+      }
 
       a {
+        margin-left: 10px;
         color: $text-color;
         text-decoration: none;
         font-size: $font-medium;
-        display: block;
-        padding: 10px;
-
-        &:hover {
-          background-color: $secondary-color;
-        }
+        margin: 15px;
       }
     }
   }
@@ -49,12 +90,50 @@
     width: 200px;
 
     li {
-      margin: 15px 0;
+      margin: 0;
 
       a {
         font-size: $font-small;
       }
     }
+  }
+
+  .socials {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 40px;
+      width: 40px;
+      color: $text-color;
+      text-decoration: none;
+      font-size: $font-medium;
+      border-radius: 50%;
+      transition: 0.7s;
+      margin: 2px;
+      &:hover {
+        background-color: $secondary-color;
+      }
+    }
+  }
+}
+
+// Key background
+@keyframes bg-animation {
+  0% {
+    background-position: 0% 0%;
+  }
+
+  50% {
+    background-position: 50% 50%; // Thêm điểm giữa để chuyển động mượt hơn
+  }
+
+  100% {
+    background-position: 100% 100%;
   }
 }
 
@@ -77,34 +156,79 @@
 //   }
 // }
 
+/* From Uiverse.io by ShadowShahriar */
 button {
   position: fixed;
-  padding: 0.1em 0.25em;
-  width: 40px;
-  height: 40px;
-  background-color: #212121;
-  border: 0.08em solid #fff;
-  border-radius: 0.3em;
-  font-size: 12px;
-  cursor: pointer;
-  left: 30px;
+  margin: 30px;
+  --border-radius: 15px;
+  --border-width: 4px;
+  appearance: none;
+  padding: 1em 2em;
+  border: 0;
+  font-size: 18px;
+  font-weight: 500;
   z-index: 1001;
-
+  background: rgba($color: #000000, $alpha: 0.5);
+  height: 50px;
+  width: 100px;
+  border-radius: 15px;
   span {
-    position: relative;
+    color: white;
     display: flex;
-    justify-content: center;
     align-items: center;
-    bottom: 0.4em;
-    width: 40px;
-    height: 40px;
-    background-color: #212121;
-    border-radius: 0.2em;
-    font-size: 1.5em;
-    color: #fff;
-    border: 0.08em solid #fff;
-    box-shadow: 0 0.4em 0.1em 0.019em #fff;
+    justify-content: center;
   }
+}
+
+button::after {
+  --m-i: linear-gradient(#000, #000);
+  --m-o: content-box, padding-box;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding: var(--border-width);
+  border-radius: var(--border-radius);
+  background-image: conic-gradient(
+    #488cfb,
+    #29dbbc,
+    #ddf505,
+    #ff9f0e,
+    #e440bb,
+    #655adc,
+    #488cfb
+  );
+  -webkit-mask-image: var(--m-i), var(--m-i);
+  mask-image: var(--m-i), var(--m-i);
+  -webkit-mask-origin: var(--m-o);
+  mask-origin: var(--m-o);
+  -webkit-mask-clip: var(--m-o);
+  mask-composite: exclude;
+  -webkit-mask-composite: destination-out;
+  filter: hue-rotate(0);
+  animation: rotate-hue linear 1200ms infinite;
+  animation-play-state: paused;
+}
+
+button:hover::after {
+  animation-play-state: running;
+}
+
+@keyframes rotate-hue {
+  to {
+    filter: hue-rotate(1turn);
+  }
+}
+
+button,
+button::after {
+  box-sizing: border-box;
+}
+
+button:active {
+  --border-width: 5px;
 }
 
 @media (min-width: $tablet) {
@@ -114,7 +238,7 @@ button {
 }
 
 button span:hover {
-  transition: all 0.5s;
+  transition: all 0.7s;
   transform: translate(0, 0.4em);
   box-shadow: 0 0 0 0 #fff;
 }
