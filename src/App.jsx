@@ -9,6 +9,7 @@ import Projects from "./Components/Projects/Projects.jsx";
 import Skills from "./Components/Skills/Skills.jsx";
 // remix icons
 import 'remixicon/fonts/remixicon.css';
+// 
 
 
 function App() {
