@@ -1,7 +1,9 @@
 @import "./../../styles/main.scss";
 
 .home_container {
-  height: 100vh;
+  padding-top: 120px;
+  height: 100%;
+  width: 100%;
   background-color: $background-color;
   background-image: radial-gradient(
     rgba(255, 255, 255, 0.171) 2px,
@@ -10,9 +12,62 @@
   background-size: 30px 30px;
   background-position: -5px -5px;
   animation: bg-move 35s linear infinite; // Animation cho background di chuyển
+  .contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .name {
+      h1 {
+        font-size: 60px;
+        font-family: $primary-font;
+      }
+      span {
+        color: $primary-color;
+        font-size: 90px;
+      }
+      p {
+        color: $text-color;
+      }
+    }
+  }
+  .gif {
+    margin-top: 50px;
+    height: 350px;
+    width: 350px;
+    img {
+      height: 100%;
+    }
+  }
+  .cv {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 
-  h1 {
-    color: $text-color;
+    a {
+      text-decoration: underline;
+      color: $text-color;
+      &:hover {
+        color: $accent-color;
+      }
+    }
+
+    i {
+      padding-left: 10px;
+    }
+  }
+
+  // Projects
+  .projects{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h2{
+      text-decoration: underline;
+    }
   }
 }
 

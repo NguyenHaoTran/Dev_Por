@@ -12,7 +12,7 @@ const SideNav = () => {
   return (
     <>
       <button className="toggle-btn" onClick={toggleSideNav}>
-        <span>Menu</span>
+        <span><i class="ri-menu-2-line"></i></span>
       </button>
       <nav className={`side-nav ${isOpen ? "open" : ""}`}>
         <div className="name">
