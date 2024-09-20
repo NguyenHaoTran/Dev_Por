@@ -21,13 +21,13 @@ const Home = () => {
           <p>Là một cá nhân mới trong lĩnh vực, luôn muốn học hỏi, hoàn thiện bản thân mỗi ngày!</p>
         </div>
         <div className="cv">
-          <a>Download my CV</a>
+          <a>Tải xuống CV</a>
           <i class="ri-arrow-down-line"></i>
         </div>
       </div>
       {/* projects */}
       <div className="projects">
-        <h2>Projects</h2>
+        <h2>Các dự án</h2>
         <div className="cards">
           {/* Card */}
           <div className="card">
@@ -78,7 +78,7 @@ const Home = () => {
       </div>
       {/*Skills */}
       <div className="skills">
-        <h2>Skills</h2>
+        <h2>Kỹ năng</h2>
         <div className="items">
           {/* skill */}
           <div className="item">
@@ -108,7 +108,7 @@ const Home = () => {
             <div className="text">
               <h3>SASS</h3>
               <p>
-                Luôn áp dụng vào mọi dự án đã và đang thực hiện,<br/>
+                Luôn áp dụng vào mọi dự án đã và đang thực hiện,
                 cả khi sử dụng ReactJS lẫn các trang web cơ bản.
               </p>
             </div>
@@ -136,6 +136,15 @@ const Home = () => {
               </p>
             </div>
           </div>
+        </div>
+      </div>
+      {/* Contact */}
+      <div className="contact">
+        <h2>Liên hệ</h2>
+        <div className="detail">
+          <a><i class="ri-phone-fill"><span>0523874839</span></i></a>
+          <a><i class="ri-mail-line"><span>trannguyenhao123@gmail.com</span></i></a>
+          <a href="https://github.com/NguyenHaoTran"><i class="ri-github-fill"><span>https://github.com/NguyenHaoTran</span></i></a>
         </div>
       </div>
     </div>

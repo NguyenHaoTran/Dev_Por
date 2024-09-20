@@ -29,19 +29,19 @@ const SideNav = () => {
           </li>
           <li>
             <i class="ri-profile-line"></i>
-            <Link to="/about">About</Link>
+            <Link to="/about">Về tôi</Link>
           </li>
           <li>
             <i class="ri-stack-line"></i>
-            <Link to="/skills">Skills</Link>
+            <Link to="/skills">Kỹ năng</Link>
           </li>
           <li>
             <i class="ri-code-line"></i>
-            <Link to="/projects">Projects</Link>
+            <Link to="/projects">Các dự án</Link>
           </li>
           <li>
-            <i class="ri-mail-line"></i>
-            <Link to="/contact">Contact</Link>
+            <i class="ri-building-4-fill"></i>
+            <Link to="/contact">K.Nghiệm</Link>
           </li>
         </ul>
         <div className="line"></div>
