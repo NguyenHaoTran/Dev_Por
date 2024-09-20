@@ -17,6 +17,9 @@ const Home = () => {
         <div className="gif">
           <img src=".\src\assets\Gif.gif" alt="" />
         </div>
+        <div className="note">
+          <p>Là một cá nhân mới trong lĩnh vực, luôn muốn học hỏi, hoàn thiện bản thân mỗi ngày!</p>
+        </div>
         <div className="cv">
           <a>Download my CV</a>
           <i class="ri-arrow-down-line"></i>
@@ -74,6 +77,67 @@ const Home = () => {
         </div>
       </div>
       {/*Skills */}
+      <div className="skills">
+        <h2>Skills</h2>
+        <div className="items">
+          {/* skill */}
+          <div className="item">
+            <img src="./src/assets/ReactJS.png" alt="" />
+            <div className="text">
+              <h3>ReactJS</h3>
+              <p>
+                Công cụ chính để thực hiện các trang web. <br/>
+                Có khả năng tìm hiểu, áp dụng những công nghệ mới có liên quan.
+              </p>
+            </div>
+          </div>
+          <div className="line"></div>
+          <div className="item">
+            <img src="./src/assets/HTML.png" alt="" />
+            <div className="text">
+              <h3>HTML</h3>
+              <p>
+                Thành thạo trong việc sử dụng. <br/>
+                Có hiểu biết về SEO ở mức khá.
+              </p>
+            </div>
+          </div>
+          <div className="line"></div>
+          <div className="item">
+            <img src="./src/assets/SASS.png" alt="" />
+            <div className="text">
+              <h3>SASS</h3>
+              <p>
+                Luôn áp dụng vào mọi dự án đã và đang thực hiện,<br/>
+                cả khi sử dụng ReactJS lẫn các trang web cơ bản.
+              </p>
+            </div>
+          </div>
+          <div className="line"></div>
+          <div className="item">
+            <img src="./src/assets/Javascript.png" alt="" />
+            <div className="text">
+              <h3>Javascript</h3>
+              <p>
+                Đủ kiến thức sử dụng để tạo ra những trang web
+                dù không quá chuyên sâu. <br/>
+                Luôn luôn muốn học hỏi thêm và rèn luyện mỗi ngày.
+              </p>
+            </div>
+          </div>
+          <div className="line"></div>
+          <div className="item">
+            <img src="./src/assets/NodeJS.png" alt="" />
+            <div className="text">
+              <h3>NodeJS</h3>
+              <p>
+                Áp dụng cho việc sử dụng ReactJS, có hiểu biết về truy xuất dư liệu, API, 
+                làm việc với backend.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
