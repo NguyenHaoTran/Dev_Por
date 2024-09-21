@@ -85,7 +85,7 @@ const About = () => {
               </div>
               <div className="hocVan_shool">
                 <h4>TOEIC</h4>
-                <p>Đạt điểm số 550</p>
+                <p>Đạt điểm số 540</p>
                 <p>2024</p>
               </div>
             </div>

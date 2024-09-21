@@ -22,7 +22,7 @@ const SideNav = () => {
         </span>
       </button>
       <nav className={`side-nav ${isOpen ? "open" : ""}`}>
-        <div className="name">
+        <div className="Name">
           <div className="avt">
             <img src="src/assets/AVT.jpg" alt="" />
           </div>
@@ -48,7 +48,7 @@ const SideNav = () => {
           </li>
           <li onClick={handleMenuClick}>
             <i className="ri-building-4-fill"></i>
-            <Link to="/contact">K.Nghiệm</Link>
+            <Link to="/kinhnghiem">K.Nghiệm</Link>
           </li>
         </ul>
         <div className="line"></div>

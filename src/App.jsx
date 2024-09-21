@@ -3,7 +3,7 @@ import "./App.scss";
 import SideNav from "./Components/side_Nav/SideNav.jsx";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import About from "./Components/About/About.jsx";
-import Contact from "./Components/Contact/Contact.jsx";
+import KinhNghiem from "./Components/KinhNghiem/KinhNghiem.jsx"
 import Home from "./Components/Home/Home.jsx";
 import Projects from "./Components/Projects/Projects.jsx";
 import Skills from "./Components/Skills/Skills.jsx";
@@ -22,7 +22,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/skills" element={<Skills />} />
             <Route path="/projects" element={<Projects />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/kinhnghiem" element={<KinhNghiem />} />
           </Routes>
         </Router>
     </>
