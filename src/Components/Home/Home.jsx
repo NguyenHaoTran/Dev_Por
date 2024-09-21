@@ -79,6 +79,9 @@ const Home = () => {
           <a>Tải xuống CV</a>
           <i class="ri-arrow-down-line"></i>
         </div>
+        <div className="scrollDown">
+          <i class="ri-arrow-down-line"></i>
+        </div>
       </div>
       {/* projects */}
       <div className="projects">
@@ -86,46 +89,39 @@ const Home = () => {
         <div className="cards">
           {/* Card */}
           <div className="card" ref={cardRef1}>
+            <div className="img">
+              <img src="src\assets\web_test.jpeg" />
+            </div>
             <div class="content">
-              <h2>001</h2>
-              <h3>Card One</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-                ea sapiente fuga, animi magnam earum.
-              </p>
-              <a href="#">Read More</a>
+              <h3>Fashion Shop</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <a href="#">Chi tiết</a>
             </div>
           </div>
+
           <div className="card" ref={cardRef2}>
             <div class="content">
               <h2>001</h2>
               <h3>Card One</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-                ea sapiente fuga, animi magnam earum.
-              </p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
               <a href="#">Read More</a>
             </div>
           </div>
+
           <div className="card" ref={cardRef3}>
             <div class="content">
               <h2>001</h2>
               <h3>Card One</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-                ea sapiente fuga, animi magnam earum.
-              </p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
               <a href="#">Read More</a>
             </div>
           </div>
+
           <div className="card" ref={cardRef4}>
             <div class="content">
               <h2>001</h2>
               <h3>Card One</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-                ea sapiente fuga, animi magnam earum.
-              </p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
               <a href="#">Read More</a>
             </div>
           </div>
