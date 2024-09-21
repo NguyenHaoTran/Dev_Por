@@ -1,7 +1,26 @@
 import React from "react";
 import "./about.scss";
+import { useEffect } from "react";
+// scrollreveal
+import ScrollReveal from "scrollreveal";
 
 const About = () => {
+  // ScrollReveal
+  useEffect(() => {
+    const sr = ScrollReveal({
+      reset: true, // Đảm bảo animation sẽ luôn thực hiện khi cuộn lại
+      origin: "top",
+      distance: "50px",
+      duration: "700",
+      delay: 200,
+    });
+
+    sr.reveal(`.name`, { origin: "left", interval: 200 });
+    //
+    sr.reveal(`.hocVan`, { origin: "top", interval: 200 });
+    sr.reveal(`.item`, { origin: "top", interval: 200 });
+  }, []);
+
   return (
     <div className="about_container">
       <div className="contents">
@@ -49,14 +68,26 @@ const About = () => {
         {/*  */}
         <div className="hocVan">
           <h2>Học vấn</h2>
-          <div className="hocVan_name">
-            <div className="hocVan_img">
-              <img src="src/assets/LogoHuflit.png" alt="" />
+          <div className="hocVan_contents">
+            <div className="hocVan_name">
+              <div className="hocVan_img">
+                <img src="src/assets/LogoHuflit.png" alt="" />
+              </div>
+              <div className="hocVan_shool">
+                <h4>Đại học ngoại ngữ tin học TPHCM</h4>
+                <p>Chuyên ngành Công nghệ phần mềm</p>
+                <p>2019 - 2023</p>
+              </div>
             </div>
-            <div className="hocVan_shool">
-              <h4>Đại học ngoại ngữ tin học TPHCM</h4>
-              <p>Chuyên ngành Công nghệ phần mềm</p>
-              <p>2019 - 2023</p>
+            <div className="hocVan_name">
+              <div className="hocVan_img">
+                <img src="src/assets/TOIECpng.png" alt="" />
+              </div>
+              <div className="hocVan_shool">
+                <h4>TOEIC</h4>
+                <p>Đạt điểm số 550</p>
+                <p>2024</p>
+              </div>
             </div>
           </div>
         </div>

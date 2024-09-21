@@ -66,42 +66,50 @@
       }
     }
     // HocVan
-    .hocVan{
-        padding-top: 50px;
+    .hocVan {
+      padding-top: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 100px;
+
+      h2 {
+        color: $accent-color;
+        text-decoration: underline;
+      }
+      .hocVan_contents {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding-bottom: 100px;
-        h2{
-            color: $accent-color;
-            text-decoration: underline;
-        }
-        .hocVan_name{
+        align-items: flex-start;
+        padding-bottom: 30px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+        .hocVan_name {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 30px;
+          gap: 30px;
+          .hocVan_img {
             display: flex;
-            justify-content: center;
             align-items: center;
-            margin-top: 30px;
-            gap: 30px;
-            .hocVan_img{
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                width: 100px;
-                height: 100px;
-                img{
-                    width: 100%;
-                }
+            justify-content: center;
+            width: 80px;
+            height: 80px;
+            img {
+              width: 100%;
             }
-            .hocVan_shool{
-                height: 80px;
-                line-height: 1.5;
-                h4{
-                    font-size: 20px;
-                    color: $primary-color;
-                }
+          }
+          .hocVan_shool {
+            height: 80px;
+            line-height: 1.5;
+            h4 {
+              font-size: 20px;
+              color: $primary-color;
             }
+          }
         }
+      }
     }
   }
 }
