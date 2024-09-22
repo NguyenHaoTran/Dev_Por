@@ -12,6 +12,7 @@
   background-position: -5px -5px;
   animation: bg-move 35s linear infinite; // Animation cho background di chuyển
   .contents {
+    padding: 0 0 0 230px;
     .name {
       padding-top: 50px;
       margin-left: 50px;
@@ -109,7 +110,14 @@
             }
           }
         }
+        
       }
+      @include respond-to(tablet){
+        justify-content: flex-start;
+      }
+    }
+    @include respond-to(tablet) {
+      padding: 0 0 0 0;
     }
   }
 }

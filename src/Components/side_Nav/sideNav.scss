@@ -1,5 +1,6 @@
 @import "../../styles/base/variables";
 @import "../../styles/base/mixins";
+@import "./sideNav-responsive.scss";
 
 .side-nav {
   position: fixed;
@@ -55,16 +56,18 @@
     left: 0; // Hiển thị side nav khi class 'open' được thêm vào
   }
 
-  @include respond-to(mobile) {
+  @include respond-to(tablet) {
     width: 250px;
-    left: -200px;
+    left: -250px;
   }
+
 
   ul {
     list-style-type: none;
     padding-top: 20px;
     width: 100%;
-    margin: 0;
+    margin: 0;  
+    padding-left: 0;
 
     li {
       display: flex;

@@ -100,29 +100,35 @@ const Home = () => {
           </div>
 
           <div className="card" ref={cardRef2}>
+            <div className="img">
+              <img src="src\assets\web_test.jpeg" />
+            </div>
             <div class="content">
-              <h2>001</h2>
-              <h3>Card One</h3>
+              <h3>Fashion Shop</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              <a href="#">Read More</a>
+              <a href="#">Chi tiết</a>
             </div>
           </div>
 
           <div className="card" ref={cardRef3}>
+            <div className="img">
+              <img src="src\assets\web_test.jpeg" />
+            </div>
             <div class="content">
-              <h2>001</h2>
-              <h3>Card One</h3>
+              <h3>Fashion Shop</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              <a href="#">Read More</a>
+              <a href="#">Chi tiết</a>
             </div>
           </div>
 
           <div className="card" ref={cardRef4}>
+            <div className="img">
+              <img src="src\assets\web_test.jpeg" />
+            </div>
             <div class="content">
-              <h2>001</h2>
-              <h3>Card One</h3>
+              <h3>Fashion Shop</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              <a href="#">Read More</a>
+              <a href="#">Chi tiết</a>
             </div>
           </div>
         </div>
