@@ -55,18 +55,17 @@
   &.open {
     left: 0; // Hiển thị side nav khi class 'open' được thêm vào
   }
-
-  @include respond-to(tablet) {
-    width: 250px;
+  
+  @media (max-width: $tablet) {
+    width: 200px;
     left: -250px;
   }
-
 
   ul {
     list-style-type: none;
     padding-top: 20px;
     width: 100%;
-    margin: 0;  
+    margin: 0;
     padding-left: 0;
 
     li {
@@ -95,15 +94,10 @@
     }
   }
 
-  @include respond-to(mobile) {
-    width: 200px;
-
-    li {
-      margin: 0;
-
-      a {
-        font-size: $font-small;
-      }
+  @include respond-to(tablet) {
+    width: 250px;
+    ul{
+      padding-left: 25px;
     }
   }
 

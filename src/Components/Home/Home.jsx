@@ -76,7 +76,7 @@ const Home = () => {
           </p>
         </div>
         <div className="cv">
-          <a>Tải xuống CV</a>
+          <a href="path/to/file.pdf" download="ten_file_tai_ve.pdf">Tải xuống CV</a>
           <i class="ri-arrow-down-line"></i>
         </div>
         <div className="scrollDown">

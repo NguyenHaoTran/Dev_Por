@@ -69,6 +69,12 @@
         margin-bottom: 30px;
       }
     }
+    @include respond-to(tablet){
+      padding-left: 220px;
+    }
+    @include respond-to(desktop){
+      padding-left: 100px;
+    }
   }
 }
 

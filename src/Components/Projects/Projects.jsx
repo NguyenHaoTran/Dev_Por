@@ -1,7 +1,26 @@
 import React from "react";
 import "./projects.scss";
+import { useEffect, useRef } from "react";
+// scrollreveal
+import ScrollReveal from "scrollreveal";
 
 const Projects = () => {
+  // ScrollReveal
+  useEffect(() => {
+    const sr = ScrollReveal({
+      reset: true, // Đảm bảo animation sẽ luôn thực hiện khi cuộn lại
+      origin: "top",
+      distance: "50px",
+      duration: "700",
+      delay: 200,
+    });
+
+    sr.reveal(`.cards`, { origin: "left", interval: 200 });
+    sr.reveal(`h2`, { origin: "right", interval: 200 });
+    sr.reveal(`.card`, { origin: "bottom", interval: 200 });
+   
+  }, []);
+
   return (
     <div className="projects_container">
       <h2>Các dự án</h2>

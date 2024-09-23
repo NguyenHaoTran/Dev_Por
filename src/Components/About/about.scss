@@ -12,7 +12,7 @@
   background-position: -5px -5px;
   animation: bg-move 35s linear infinite; // Animation cho background di chuyển
   .contents {
-    padding: 0 0 0 230px;
+    padding: 0;
     .name {
       padding-top: 50px;
       margin-left: 50px;
@@ -29,6 +29,7 @@
       margin-left: 50px;
       display: flex;
       align-items: flex-start;
+      background-image: url("../../assets/pattern2.png");
       .icons {
         height: 100%;
         display: flex;
@@ -74,7 +75,7 @@
       align-items: center;
       justify-content: center;
       padding-bottom: 100px;
-
+      background-image: url("../../assets/pattern2.png");
       h2 {
         color: $accent-color;
         text-decoration: underline;
@@ -110,14 +111,14 @@
             }
           }
         }
-        
-      }
+      }   
       @include respond-to(tablet){
-        justify-content: flex-start;
-      }
+        align-items: flex-start;
+        padding-left: 50px;
+      } 
     }
     @include respond-to(tablet) {
-      padding: 0 0 0 0;
+      padding: 0 0 0 400px;
     }
   }
 }

@@ -34,6 +34,14 @@
           color: $accent-color;
         }
       }
+      @include respond-to(desktop){
+        h1{
+          font-size: 80px;
+        }
+        span{
+          font-size: 120px;
+        }
+      }
     }
   }
   .gif {
@@ -188,7 +196,7 @@
           background-color: rgba(0, 0, 0, 0.7);
         }
       }
-      @include respond-to(desktop){
+      @include respond-to(tablet){
         grid-template-columns: repeat(3, 1fr);
       }
     }
@@ -250,7 +258,7 @@
         border-bottom: solid 1px rgba(110, 110, 110, 0.4);
         margin-bottom: 30px;
       }
-      @include respond-to(desktop)
+      @include respond-to(tablet)
       {
         padding: 50px 280px 50px 280px;
       }
