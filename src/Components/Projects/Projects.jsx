@@ -28,33 +28,33 @@ const Projects = () => {
           {/* Card */}
           <div className="card" >
             <div className="img">
-              <img src="src\assets\web_test.jpeg" />
+              <img src="src\assets\Fashion_2.png" />
             </div>
             <div class="content">
               <h3>Fashion Shop</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Sử dụng ReactJS + Vite để xây dựng, gần như hoàn thành UI.</p>
               <a href="#">Chi tiết</a>
             </div>
           </div>
 
           <div className="card" >
             <div className="img">
-              <img src="src\assets\web_test.jpeg" />
+              <img src="src\assets\apple_2.png" />
             </div>
             <div class="content">
-              <h3>Fashion Shop</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <h3>Apple Web Clone</h3>
+              <p>UI trang chủ Apple, HTML-CSS và Javascript cho responsive.</p>
               <a href="#">Chi tiết</a>
             </div>
           </div>
 
           <div className="card" >
             <div className="img">
-              <img src="src\assets\web_test.jpeg" />
+              <img src="src\assets\film_2.png" />
             </div>
             <div class="content">
-              <h3>Fashion Shop</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <h3>Film Lab</h3>
+              <p>Sử dụng HTMl_CSS, có Dark mode, responsive với Javascript.</p>
               <a href="#">Chi tiết</a>
             </div>
           </div>

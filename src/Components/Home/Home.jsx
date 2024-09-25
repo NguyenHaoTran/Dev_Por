@@ -90,33 +90,33 @@ const Home = () => {
           {/* Card */}
           <div className="card" ref={cardRef1}>
             <div className="img">
-              <img src="src\assets\web_test.jpeg" />
+              <img src="src\assets\Fashion_1.png" />
             </div>
             <div class="content">
               <h3>Fashion Shop</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Sử dụng ReactJS + Vite để xây dựng, gần như hoàn thành UI.</p>
               <a href="#">Chi tiết</a>
             </div>
           </div>
 
           <div className="card" ref={cardRef2}>
             <div className="img">
-              <img src="src\assets\web_test.jpeg" />
+              <img src="src\assets\apple_1.png" />
             </div>
             <div class="content">
               <h3>Fashion Shop</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>UI trang chủ Apple, HTML-CSS và Javascript cho responsive.</p>
               <a href="#">Chi tiết</a>
             </div>
           </div>
 
           <div className="card" ref={cardRef3}>
             <div className="img">
-              <img src="src\assets\web_test.jpeg" />
+              <img src="src\assets\film_1.png" />
             </div>
             <div class="content">
               <h3>Fashion Shop</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Sử dụng HTMl_CSS, có Dark mode, responsive với Javascript.</p>
               <a href="#">Chi tiết</a>
             </div>
           </div>
