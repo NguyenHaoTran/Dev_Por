@@ -11,14 +11,13 @@
   background-position: -5px -5px;
   animation: bg-move 35s linear infinite; // Animation cho background di chuyển
   padding-top: 120px;
-
   .skills {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-image: url("../../assets/pattern2.png");
-    padding-bottom: 50px;
+    padding-bottom: 120px;
     h2 {
       text-decoration: underline;
       color: $accent-color;
@@ -69,10 +68,10 @@
         margin-bottom: 30px;
       }
     }
-    @include respond-to(tablet){
+    @include respond-to(tablet) {
       padding-left: 220px;
     }
-    @include respond-to(desktop){
+    @include respond-to(desktop) {
       padding-left: 100px;
     }
   }
