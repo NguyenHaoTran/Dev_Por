@@ -104,9 +104,9 @@ const Home = () => {
               <img src="src\assets\apple_1.png" />
             </div>
             <div class="content">
-              <h3>Fashion Shop</h3>
+              <h3>Apple_Web_Clone</h3>
               <p>UI trang chủ Apple, HTML-CSS và Javascript cho responsive.</p>
-              <a href="#">Chi tiết</a>
+              <a href="https://nguyenhaotran.github.io/Apple_web/">Chi tiết</a>
             </div>
           </div>
 
@@ -115,13 +115,13 @@ const Home = () => {
               <img src="src\assets\film_1.png" />
             </div>
             <div class="content">
-              <h3>Fashion Shop</h3>
+              <h3>Film Lab</h3>
               <p>Sử dụng HTMl_CSS, có Dark mode, responsive với Javascript.</p>
-              <a href="#">Chi tiết</a>
+              <a href="https://nguyenhaotran.github.io/LandingPage_Template/">Chi tiết</a>
             </div>
           </div>
 
-          <div className="card" ref={cardRef4}>
+          {/* <div className="card" ref={cardRef4}>
             <div className="img">
               <img src="src\assets\web_test.jpeg" />
             </div>
@@ -130,7 +130,7 @@ const Home = () => {
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
               <a href="#">Chi tiết</a>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       {/*Skills */}

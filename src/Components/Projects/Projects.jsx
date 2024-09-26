@@ -55,11 +55,11 @@ const Projects = () => {
             <div class="content">
               <h3>Film Lab</h3>
               <p>Sử dụng HTMl_CSS, có Dark mode, responsive với Javascript.</p>
-              <a href="#">Chi tiết</a>
+              <a href="https://nguyenhaotran.github.io/LandingPage_Template/">Chi tiết</a>
             </div>
           </div>
 
-          <div className="card">
+          {/* <div className="card">
             <div className="img">
               <img src="src\assets\web_test.jpeg" />
             </div>
@@ -68,7 +68,7 @@ const Projects = () => {
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
               <a href="#">Chi tiết</a>
             </div>
-          </div>
+          </div> */}
         </div>
     </div>
   );
