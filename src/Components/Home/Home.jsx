@@ -76,7 +76,7 @@ const Home = () => {
           </p>
         </div>
         <div className="cv">
-          <a href="https://raw.githubusercontent.com/NguyenHaoTran/Dev_Por/1024b8ef9a0021f205e391420c583e0fddb1ff53/public/Tran_Nguyen_Hao.pdf" download="Trần_Nguyên_Hào_frontendDev.pdf">Tải xuống CV</a>
+          <a href="https://raw.githubusercontent.com/NguyenHaoTran/Dev_Por/main/public/FrontEnd_Dev.pdf" download="Trần_Nguyên_Hào_frontendDev.pdf">Tải xuống CV</a>
           <i class="ri-arrow-down-line"></i>
         </div>
         <div className="scrollDown">
