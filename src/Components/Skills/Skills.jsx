@@ -24,7 +24,7 @@ const Skills = () => {
         <div className="items">
           {/* skill */}
           <div className="item">
-            <img src="./src/assets/ReactJS.png" alt="" />
+            <img src="https://raw.githubusercontent.com/NguyenHaoTran/IMGS_Dev_Por/refs/heads/main/ReactJS.png" alt="" />
             <div className="text">
               <h3>ReactJS</h3>
               <p>
@@ -35,7 +35,7 @@ const Skills = () => {
           </div>
           <div className="line"></div>
           <div className="item">
-            <img src="./src/assets/HTML.png" alt="" />
+            <img src="https://raw.githubusercontent.com/NguyenHaoTran/IMGS_Dev_Por/refs/heads/main/HTML.png" alt="" />
             <div className="text">
               <h3>HTML</h3>
               <p>
@@ -46,7 +46,7 @@ const Skills = () => {
           </div>
           <div className="line"></div>
           <div className="item">
-            <img src="./src/assets/SASS.png" alt="" />
+            <img src="https://raw.githubusercontent.com/NguyenHaoTran/IMGS_Dev_Por/refs/heads/main/SASS.png" alt="" />
             <div className="text">
               <h3>SASS</h3>
               <p>
@@ -57,7 +57,7 @@ const Skills = () => {
           </div>
           <div className="line"></div>
           <div className="item">
-            <img src="./src/assets/Javascript.png" alt="" />
+            <img src="https://raw.githubusercontent.com/NguyenHaoTran/IMGS_Dev_Por/refs/heads/main/Javascript.png" alt="" />
             <div className="text">
               <h3>Javascript</h3>
               <p>
@@ -69,7 +69,7 @@ const Skills = () => {
           </div>
           <div className="line"></div>
           <div className="item">
-            <img src="./src/assets/NodeJS.png" alt="" />
+            <img src="https://raw.githubusercontent.com/NguyenHaoTran/IMGS_Dev_Por/refs/heads/main/NodeJS.png" alt="" />
             <div className="text">
               <h3>NodeJS</h3>
               <p>

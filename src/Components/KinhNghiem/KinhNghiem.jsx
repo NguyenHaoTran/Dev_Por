@@ -27,7 +27,7 @@ const KinhNghiem = () => {
           <div className="kinhNghiem_contents">
             <div className="kinhNghiem_name">
               <div className="kinhNghiem_img">
-                <img src="src/assets/farmtech.jpg" alt="" />
+                <img src="https://raw.githubusercontent.com/NguyenHaoTran/IMGS_Dev_Por/refs/heads/main/farmtech.jpg" alt="" />
               </div>
               <div className="kinhNghiem_company">
                 <h4>Farm Tech</h4>
@@ -37,7 +37,7 @@ const KinhNghiem = () => {
             </div>
             <div className="kinhNghiem_name">
               <div className="kinhNghiem_img">
-                <img src="src/assets/LH.webp" alt="" />
+                <img src="https://raw.githubusercontent.com/NguyenHaoTran/IMGS_Dev_Por/refs/heads/main/LH.webp" alt="" />
               </div>
               <div className="kinhNghiem_company">
                 <h4>Long Hoàng Group</h4>

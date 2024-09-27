@@ -67,7 +67,7 @@ const Home = () => {
           </p>
         </div>
         <div className="gif">
-          <img src=".\src\assets\Gif.gif" alt="" />
+          <img src="https://raw.githubusercontent.com/NguyenHaoTran/IMGS_Dev_Por/refs/heads/main/Gif.gif" alt="" />
         </div>
         <div className="note">
           <p>
@@ -76,7 +76,7 @@ const Home = () => {
           </p>
         </div>
         <div className="cv">
-          <a href="path/to/file.pdf" download="ten_file_tai_ve.pdf">Tải xuống CV</a>
+          <a href="\Dev_Por\public\Tran_Nguyen_Hao.pdf" download="Trần_Nguyên_Hào_frontendDev.pdf">Tải xuống CV</a>
           <i class="ri-arrow-down-line"></i>
         </div>
         <div className="scrollDown">
@@ -90,7 +90,7 @@ const Home = () => {
           {/* Card */}
           <div className="card" ref={cardRef1}>
             <div className="img">
-              <img src="src\assets\Fashion_1.png" />
+              <img src="https://raw.githubusercontent.com/NguyenHaoTran/IMGS_Dev_Por/refs/heads/main/Fashion_1.png" />
             </div>
             <div class="content">
               <h3>Fashion Shop</h3>
@@ -101,7 +101,7 @@ const Home = () => {
 
           <div className="card" ref={cardRef2}>
             <div className="img">
-              <img src="src\assets\apple_1.png" />
+              <img src="https://raw.githubusercontent.com/NguyenHaoTran/IMGS_Dev_Por/refs/heads/main/apple_1.png" />
             </div>
             <div class="content">
               <h3>Apple_Web_Clone</h3>
@@ -112,7 +112,7 @@ const Home = () => {
 
           <div className="card" ref={cardRef3}>
             <div className="img">
-              <img src="src\assets\film_1.png" />
+              <img src="https://raw.githubusercontent.com/NguyenHaoTran/IMGS_Dev_Por/refs/heads/main/film_1.png" />
             </div>
             <div class="content">
               <h3>Film Lab</h3>
@@ -139,7 +139,7 @@ const Home = () => {
         <div className="items">
           {/* skill */}
           <div className="item">
-            <img src="./src/assets/ReactJS.png" alt="" />
+            <img src="https://raw.githubusercontent.com/NguyenHaoTran/IMGS_Dev_Por/refs/heads/main/ReactJS.png" alt="" />
             <div className="text">
               <h3>ReactJS</h3>
               <p>
@@ -150,7 +150,7 @@ const Home = () => {
           </div>
           <div className="line"></div>
           <div className="item">
-            <img src="./src/assets/HTML.png" alt="" />
+            <img src="https://raw.githubusercontent.com/NguyenHaoTran/IMGS_Dev_Por/refs/heads/main/HTML.png" alt="" />
             <div className="text">
               <h3>HTML</h3>
               <p>
@@ -161,7 +161,7 @@ const Home = () => {
           </div>
           <div className="line"></div>
           <div className="item">
-            <img src="./src/assets/SASS.png" alt="" />
+            <img src="https://raw.githubusercontent.com/NguyenHaoTran/IMGS_Dev_Por/refs/heads/main/SASS.png" alt="" />
             <div className="text">
               <h3>SASS</h3>
               <p>
@@ -172,7 +172,7 @@ const Home = () => {
           </div>
           <div className="line"></div>
           <div className="item">
-            <img src="./src/assets/Javascript.png" alt="" />
+            <img src="https://raw.githubusercontent.com/NguyenHaoTran/IMGS_Dev_Por/refs/heads/main/Javascript.png" alt="" />
             <div className="text">
               <h3>Javascript</h3>
               <p>
@@ -184,7 +184,7 @@ const Home = () => {
           </div>
           <div className="line"></div>
           <div className="item">
-            <img src="./src/assets/NodeJS.png" alt="" />
+            <img src="https://raw.githubusercontent.com/NguyenHaoTran/IMGS_Dev_Por/refs/heads/main/NodeJS.png" alt="" />
             <div className="text">
               <h3>NodeJS</h3>
               <p>

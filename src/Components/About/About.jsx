@@ -71,7 +71,7 @@ const About = () => {
           <div className="hocVan_contents">
             <div className="hocVan_name">
               <div className="hocVan_img">
-                <img src="src/assets/LogoHuflit.png" alt="" />
+                <img src="/Dev_Por/public/LogoHuflit.png" alt="" />
               </div>
               <div className="hocVan_shool">
                 <h4>Đại học ngoại ngữ tin học TPHCM</h4>
@@ -81,7 +81,7 @@ const About = () => {
             </div>
             <div className="hocVan_name">
               <div className="hocVan_img">
-                <img src="src/assets/TOIECpng.png" alt="" />
+                <img src="/Dev_Por/public/TOIECpng.png" alt="" />
               </div>
               <div className="hocVan_shool">
                 <h4>TOEIC</h4>

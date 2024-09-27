@@ -28,7 +28,7 @@ const Projects = () => {
           {/* Card */}
           <div className="card" >
             <div className="img">
-              <img src="src\assets\Fashion_2.png" />
+              <img src="https://raw.githubusercontent.com/NguyenHaoTran/IMGS_Dev_Por/refs/heads/main/Fashion_2.png" />
             </div>
             <div class="content">
               <h3>Fashion Shop</h3>
@@ -39,7 +39,7 @@ const Projects = () => {
 
           <div className="card" >
             <div className="img">
-              <img src="src\assets\apple_2.png" />
+              <img src="https://raw.githubusercontent.com/NguyenHaoTran/IMGS_Dev_Por/refs/heads/main/apple_2.png" />
             </div>
             <div class="content">
               <h3>Apple Web Clone</h3>
@@ -50,7 +50,7 @@ const Projects = () => {
 
           <div className="card" >
             <div className="img">
-              <img src="src\assets\film_2.png" />
+              <img src="https://raw.githubusercontent.com/NguyenHaoTran/IMGS_Dev_Por/refs/heads/main/film_2.png" />
             </div>
             <div class="content">
               <h3>Film Lab</h3>

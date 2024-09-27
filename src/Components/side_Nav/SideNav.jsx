@@ -24,7 +24,7 @@ const SideNav = () => {
       <nav className={`side-nav ${isOpen ? "open" : ""}`}>
         <div className="Name">
           <div className="avt">
-            <img src="src/assets/AVT.jpg" alt="" />
+            <img src="https://raw.githubusercontent.com/NguyenHaoTran/IMGS_Dev_Por/refs/heads/main/AVT.jpg" alt="" />
           </div>
           <h1>ng.hao.t</h1>
         </div>
@@ -32,23 +32,23 @@ const SideNav = () => {
         <ul>
           <li onClick={handleMenuClick}>
             <i className="ri-home-line"></i>
-            <Link to="/">Home</Link>
+            <Link to="/Dev_Por/">Home</Link>
           </li>
           <li onClick={handleMenuClick}>
             <i className="ri-profile-line"></i>
-            <Link to="/about">Về tôi</Link>
+            <Link to="/Dev_Por/about">Về tôi</Link>
           </li>
           <li onClick={handleMenuClick}>
             <i className="ri-stack-line"></i>
-            <Link to="/skills">Kỹ năng</Link>
+            <Link to="/Dev_Por/skills">Kỹ năng</Link>
           </li>
           <li onClick={handleMenuClick}>
             <i className="ri-code-line"></i>
-            <Link to="/projects">Các dự án</Link>
+            <Link to="/Dev_Por/projects">Các dự án</Link>
           </li>
           <li onClick={handleMenuClick}>
             <i className="ri-building-4-fill"></i>
-            <Link to="/kinhnghiem">K.Nghiệm</Link>
+            <Link to="/Dev_Por/kinhnghiem">K.Nghiệm</Link>
           </li>
         </ul>
         <div className="line"></div>
