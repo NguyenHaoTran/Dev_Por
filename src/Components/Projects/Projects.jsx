@@ -44,7 +44,7 @@ const Projects = () => {
             <div class="content">
               <h3>Apple Web Clone</h3>
               <p>UI trang chủ Apple, HTML-CSS và Javascript cho responsive.</p>
-              <a href="#">Chi tiết</a>
+              <a href="https://nguyenhaotran.github.io/Apple_web/">Chi tiết</a>
             </div>
           </div>
 
