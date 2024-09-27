@@ -33,7 +33,7 @@ const Projects = () => {
             <div class="content">
               <h3>Fashion Shop</h3>
               <p>Sử dụng ReactJS + Vite để xây dựng, gần như hoàn thành UI.</p>
-              <a href="#">Chi tiết</a>
+              <a href="https://nguyenhaotran.github.io/Fashion_Shop/">Chi tiết</a>
             </div>
           </div>
 
