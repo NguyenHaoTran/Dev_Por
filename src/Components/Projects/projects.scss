@@ -2,6 +2,9 @@
 
 .projects_container {
   padding-top: 120px;
+  padding-bottom: 400px;
+  // padding-left: 30px;
+  // padding-right: 30px;
   height: 100%;
   background-color: $background-color;
   background-image: radial-gradient(
@@ -27,8 +30,8 @@
     padding: 80px 25px 50px 25px;
     background-image: url("../../assets/pattern2.png");
     .card {
-      width: 450px;
-      height: 320px;
+      width: 350px;
+      height: 190px;
       margin: 10px;
       box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
       border-radius: 15px;
@@ -41,8 +44,8 @@
       border-left: 1px solid rgba(53, 53, 53, 0.5);
       backdrop-filter: blur(5px);
       transition: 0.5s;
-      
-      &:hover{
+
+      &:hover {
         scale: 105%;
       }
 
@@ -79,26 +82,30 @@
 
         a {
           position: relative;
-            display: inline-block;
-            padding: 8px 20px;
-            margin-top: 15px;
-            background: $background-color;
-            color: $primary-color;
-            border-radius: 20px;
-            text-decoration: none;
-            font-weight: 500;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-            cursor: pointer;
-            &:hover{
-              background-color: #051808ce;
-            }
+          display: inline-block;
+          padding: 8px 20px;
+          margin-top: 15px;
+          background: $background-color;
+          color: $primary-color;
+          border-radius: 20px;
+          text-decoration: none;
+          font-weight: 500;
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+          cursor: pointer;
+          &:hover {
+            background-color: #051808ce;
+          }
         }
-        @include respond-to(tablet){
+        @include respond-to(tablet) {
           padding-left: 60px;
         }
       }
-      @include respond-to(tablet){
+      @include respond-to(tablet) {
         width: 700px;
+      }
+      @include respond-to(tablet) {
+        width: 600px;
+        height: 320px;
       }
     }
   }
